@@ -1,5 +1,18 @@
 #!/usr/bin/env ruby
+<<<<<<< HEAD
 require_relative "../lib/cli"
 require 'pry'
 
 run
+=======
+
+require 'nokogiri'
+require 'open-uri'
+require 'pry'
+
+require_relative "../lib/cli"
+require_relative "../lib/movie"
+require_relative "../lib/scraper
+
+CLI.new.run
+>>>>>>> 2c66574e1d94402be1e439ca808581b41b3557c4
