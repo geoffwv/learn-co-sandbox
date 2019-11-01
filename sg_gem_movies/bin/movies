@@ -1,5 +1,0 @@
-#!/usr/bin/env ruby
-
-require_relative "../lib/sg_gem_movies"
-
-CLI.new.run
